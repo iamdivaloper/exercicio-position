@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+/* *Seleciona todos elementos*/
+/*.html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}*/
+.menuTopo{
+    background-color:#462755;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    /*margin-top: 10px;
+    margin-left: 50px;*/
+    /*bottom: 0;*/
+    /*right: */
+}   
+.textoPrincipal{
+    padding-top: 50px;
+}
+.principal{
+    width: 50%;
+    /*height: 150px;*/
+    background-color: yellow;
+    padding: 150px;
+    /*box-sizing: content-box; soma a altura maias padding*/
+    box-sizing: border-box; /*desconta o padding da altura  */
+}
+/*#filhaMaior{
+    width: 50%;
+    background-color: white;
+}*/
+.box{
+    background-color: red;
+}
+.principalFilha{
+    width: 30%; /*30% da div principal*/
+    /*height: 50%; porcentagem de alguma coisa/ depende de referencia do elemento mãe*/
+    height: 50px;
+    background-color: black;
+    margin-top:50px;
+    /*margin-left: 50px;*/
+    /*margin: 20px;*/
+}
+
